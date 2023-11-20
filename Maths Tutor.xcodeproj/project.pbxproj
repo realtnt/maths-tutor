@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E466A3752B0AD9610034AE4F /* Maths_TutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466A3742B0AD9610034AE4F /* Maths_TutorApp.swift */; };
-		E466A3772B0AD9610034AE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466A3762B0AD9610034AE4F /* ContentView.swift */; };
+		E466A3772B0AD9610034AE4F /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466A3762B0AD9610034AE4F /* MainGameView.swift */; };
 		E466A3792B0AD9610034AE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E466A3782B0AD9610034AE4F /* Assets.xcassets */; };
 		E466A37C2B0AD9610034AE4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E466A37B2B0AD9610034AE4F /* Preview Assets.xcassets */; };
+		E466A3832B0ADA5A0034AE4F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466A3822B0ADA5A0034AE4F /* GameViewModel.swift */; };
+		E4C3191B2B0B991700FFA36D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3191A2B0B991700FFA36D /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E466A3712B0AD9610034AE4F /* Maths Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maths Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E466A3742B0AD9610034AE4F /* Maths_TutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maths_TutorApp.swift; sourceTree = "<group>"; };
-		E466A3762B0AD9610034AE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E466A3762B0AD9610034AE4F /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
 		E466A3782B0AD9610034AE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E466A37B2B0AD9610034AE4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E466A3822B0ADA5A0034AE4F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		E4C3191A2B0B991700FFA36D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		E466A3732B0AD9610034AE4F /* Maths Tutor */ = {
 			isa = PBXGroup;
 			children = (
+				E4C3191A2B0B991700FFA36D /* AudioPlayer.swift */,
 				E466A3742B0AD9610034AE4F /* Maths_TutorApp.swift */,
-				E466A3762B0AD9610034AE4F /* ContentView.swift */,
+				E466A3762B0AD9610034AE4F /* MainGameView.swift */,
 				E466A3782B0AD9610034AE4F /* Assets.xcassets */,
 				E466A37A2B0AD9610034AE4F /* Preview Content */,
+				E466A3822B0ADA5A0034AE4F /* GameViewModel.swift */,
 			);
 			path = "Maths Tutor";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E466A3772B0AD9610034AE4F /* ContentView.swift in Sources */,
+				E466A3832B0ADA5A0034AE4F /* GameViewModel.swift in Sources */,
+				E466A3772B0AD9610034AE4F /* MainGameView.swift in Sources */,
 				E466A3752B0AD9610034AE4F /* Maths_TutorApp.swift in Sources */,
+				E4C3191B2B0B991700FFA36D /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
